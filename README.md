@@ -1,3 +1,4 @@
+
 # Yii 2 Starter Kit
 
 <!-- BADGES/ -->
@@ -339,4 +340,3 @@ https://github.com/yiisoft/yii2/tree/master/docs
 This template was created mostly for developers NOT for end users.
 This is a point where you can begin your application, rather than creating it from scratch.
 Good luck!
-
