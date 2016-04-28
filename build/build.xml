@@ -54,5 +54,5 @@
         <exec command="php /home/domains/mayarossa/current/vendor/bin/phpunit /home/domains/mayarossa/current/tests/phpunit/UserTest.php" dir="${target.dir}" checkreturn="true" returnProperty="exec.return" outputProperty="exec.output"/>
     </target>
 
-    <target name="build" depends="vars, copy, config, composer, symlink" />
+    <target name="build" depends="vars, copy, config, composer, symlink, rightsAndFolders" />
 </project>
