@@ -53,7 +53,7 @@
     </target>
 
     <target name="restart">
-        <exec command="sudo service php7.0-fpm reload" dir="${target.dir}" checkreturn="true" returnProperty="exec.return" outputProperty="exec.output"/>
+        <exec command="sudo /etc/init.d/php7.0-fpm restart" dir="${target.dir}" checkreturn="true" returnProperty="exec.return" outputProperty="exec.output"/>
     </target>
 
     <target name="build" depends="vars, copy, config, composer, symlink, rightsAndFolders, restart" />
