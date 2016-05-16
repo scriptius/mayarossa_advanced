@@ -12,21 +12,15 @@ class MainAsset extends  AssetBundle{
 
     public $css = [
         'themeMayarossa/css/style.css',
-
-
-        'source/owl-carousel/owl.carousel.css',
-        'source/owl-carousel/owl.theme.css',
-        'source/slitslider/css/style.css',
-        'source/slitslider/css/custom.css'
+        'themeMayarossa/bootstrap/css/bootstrap.css',
+        'themeMayarossa/bootstrap/css/bootstrap.min.css',
+        'themeMayarossa/bootstrap/css/bootstrap-responsive.min.css',
+        'themeMayarossa/styles/icons/icons.css'
     ];
 
     public $js = [
-        'source/script.js',
-        'source/owl-carousel/owl.carousel.js',
-        'source/slitslider/js/modernizr.custom.79639.js',
-        'source/slitslider/js/jquery.ba-cond.min.js',
-        'source/slitslider/js/jquery.slitslider.js',
-        'source/js/google_analytics_auto.js'
+        'themeMayarossa/js/rs-plugin/css/settings.css',
+
     ];
 
     public $depends = [

@@ -1,7 +1,7 @@
 <?php
-
+\frontend\assets\MainAsset::register($this);
 ?>
-
+<?php $this->beginPage() ?>
 <!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie8" lang="en"> <![endif]-->
@@ -34,8 +34,10 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles/icons/font-awesome-ie7.min.css" />
 	<![endif]-->
+	<?php $this->head() ?>
 </head>
 <body id="fluidGridSystem">
+<?php $this->beginBody() ?>
 	<div id="layout" class="full">
 		<!-- popup login -->
 			<div id="popupLogin">
@@ -574,5 +576,7 @@
 		});
 	/* ]]> */
 	</script>
+<?php $this->endBody() ?>
 </body>
 </html>
+<?php $this->endPage() ?>
