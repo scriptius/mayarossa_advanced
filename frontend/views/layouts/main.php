@@ -10,7 +10,7 @@
 	<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 	<!--<![endif]-->
 	<head>
-		<title>Remix Modern - Music & Band Site Template HTML5 and CSS3</title>
+		<title>Мая Егорова (Maya Rossa)</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		<!-- Seo Meta -->
@@ -38,7 +38,7 @@
 	</head>
 	<body id="fluidGridSystem" class="modern">
 	<?php $this->beginBody() ?>
-	<div id="layout" class="boxed-margin">
+	<div id="layout" class="full">
 		<!-- popup login -->
 		<div id="popupLogin">
 			<div class="def-block widget">
@@ -350,10 +350,9 @@
 			<div class="row clearfix mbf">
 				<div class="music-player-list"></div>
 			</div><!-- row music player -->
-
 			<div class="row clearfix mbf">
 				<div class="def-block animtt" data-gen="fadeUp" style="opacity:0;">
-					<h4> New Videos </h4><span class="liner"></span>
+					<h4> Новые видео </h4><span class="liner"></span>
 
 					<div class="video-grid clearfix">
 						<div class="videos-carousel">
@@ -409,7 +408,7 @@
 			<div class="row row-fluid clearfix mbf">
 				<div class="span8 posts">
 					<div class="def-block">
-						<h4> Latest News </h4><span class="liner"></span>
+						<h4> Последние новости </h4><span class="liner"></span>
 
 						<div class="news row-fluid animtt" data-gen="fadeUp" style="opacity:0;">
 							<div class="span5"><img class="four-radius" src="themeMayarossa/images/assets/news1.jpg" alt="#"></div>
@@ -453,7 +452,7 @@
 
 				<div class="span4 sidebar">
 					<div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
-						<h4> Events </h4><span class="liner"></span>
+						<h4> События </h4><span class="liner"></span>
 						<div class="widget-content row-fluid">
 							<div class="span12 mb">
 								<ul id="event1" class="event-timer">
@@ -487,14 +486,14 @@
 					</div><!-- def block widget events -->
 
 					<div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
-						<h4> Latest Tweets </h4><span class="liner"></span>
+						<h4> Я в твитере </h4><span class="liner"></span>
 						<div class="widget-content">
 							<div class="tweet"></div>
 						</div><!-- widget content -->
 					</div><!-- def block widget videos -->
 
 					<div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
-						<h4> Popular Tracks </h4><span class="liner"></span>
+						<h4> Популярные треки </h4><span class="liner"></span>
 						<div class="widget-content row-fluid">
 							<div class="scroll-mp3" style="height: 220px;">
 								<div class="content">
