@@ -25,6 +25,12 @@ $config = [
                     'baseUrl' => '@web',
                     'css' => ['themeMayarossa/bootstrap/css/bootstrap.css'],
                 ],
+                'yii\web\JqueryAsset' => [
+                    'sourcePath' => null,
+                    'basePath' => '@webroot',
+                    'baseUrl' => '@web',
+                    'js' => ['themeMayarossa/js/jquery.min.js']
+                ],
             ],
         ],
         'authClientCollection' => [
