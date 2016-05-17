@@ -23,7 +23,8 @@ $config = [
                     'sourcePath' => null,
                     'basePath' => '@webroot',
                     'baseUrl' => '@web',
-                    'css' => ['themeMayarossa/bootstrap/css/bootstrap.css'],
+//                    'css' => ['themeMayarossa/bootstrap/css/bootstrap.css'],
+                    'css' => ['themeMayarossa/bootstrap/css/bootstrap-responsive.min.css'],
                 ],
                 'yii\web\JqueryAsset' => [
                     'sourcePath' => null,

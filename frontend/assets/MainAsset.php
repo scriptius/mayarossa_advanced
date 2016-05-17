@@ -16,7 +16,7 @@ class MainAsset extends  AssetBundle{
 
 //        'themeMayarossa/bootstrap/css/bootstrap.css',
 //        'themeMayarossa/bootstrap/css/bootstrap.min.css',
-//        'themeMayarossa/bootstrap/css/bootstrap-responsive.min.css',
+        'themeMayarossa/bootstrap/css/bootstrap-responsive.min.css',
         'themeMayarossa/styles/icons/icons.css',
         'http://fonts.googleapis.com/css?family=Oswald',
         'themeMayarossa/js/rs-plugin/css/settings.css',
@@ -52,7 +52,8 @@ class MainAsset extends  AssetBundle{
     ];
 
     public $cssOptions = [
-        'type' => 'text/css'
+        'type' => 'text/css',
+        'media' => "screen"
     ];
 
 

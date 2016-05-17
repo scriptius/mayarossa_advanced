@@ -1,53 +1,60 @@
 <?php
 \frontend\assets\MainAsset::register($this);
 ?>
-
 <?php $this->beginPage() ?>
-<!DOCTYPE html>
-<!--[if IE 7 ]><html class="ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="ie9" xmlns="http://www.w3.org/1999/xhtml" lang="en-US"> <![endif]-->
-<!--[if (gte IE 10)|!(IE)]><!-->
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
-<!--<![endif]-->
-<head>
-	<title>MayaRossa</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<!-- Seo Meta -->
+	<!DOCTYPE html>
+	<!--[if IE 7 ]><html class="ie7" lang="en"> <![endif]-->
+	<!--[if IE 8 ]><html class="ie8" lang="en"> <![endif]-->
+	<!--[if IE 9 ]><html class="ie9" xmlns="http://www.w3.org/1999/xhtml" lang="en-US"> <![endif]-->
+	<!--[if (gte IE 10)|!(IE)]><!-->
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+	<!--<![endif]-->
+	<head>
+		<title>Remix Modern - Music & Band Site Template HTML5 and CSS3</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!-- Seo Meta -->
 		<meta name="description" content="Remix - Music & Band Site Template HTML5 and CSS3">
 		<meta name="keywords" content="remix, music, light, dark, themeforest, multi purpose, band, css3, html5">
 
-	<!-- Favicon -->
+		<!-- Styles -->
+<!--		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen" />-->
+<!--		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" media="screen" />-->
+<!--		<link rel="stylesheet" type="text/css" href="style.css" id="dark" media="screen" />-->
+<!--		<link rel="stylesheet" type="text/css" href="js/rs-plugin/css/settings.css" media="screen" />-->
+<!--		<link rel="stylesheet" type="text/css" href="styles/icons/icons.css" media="screen" />-->
+<!--		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>-->
+<!--		<link rel="stylesheet" type="text/css" href="styles/light.css" media="screen" />-->
+		<!-- Favicon -->
 		<link rel="shortcut icon" href="themeMayarossa/images/favicon.ico">
 		<link rel="apple-touch-icon" href="themeMayarossa/images/apple-touch-icon.png">
 
-	<!--[if IE]>
+		<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EmulateIE8; IE=EDGE" />
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<link rel="stylesheet" type="text/css" href="themeMayarossa/styles/icons/font-awesome-ie7.min.css" />
-	<![endif]-->
-	<?php $this->head() ?>
-</head>
-<body id="fluidGridSystem">
-<?php $this->beginBody() ?>
-	<div id="layout" class="full">
+		<link rel="stylesheet" type="text/css" href="styles/icons/font-awesome-ie7.min.css" />
+		<![endif]-->
+		<?php $this->head() ?>
+	</head>
+	<body id="fluidGridSystem" class="modern">
+	<?php $this->beginBody() ?>
+	<div id="layout" class="boxed-margin">
 		<!-- popup login -->
-			<div id="popupLogin">
-				<div class="def-block widget">
-					<h4> Sign In </h4><span class="liner"></span>
-					<div class="widget-content row-fluid">
-						<form id="popup_login_form">
-							<input type="text" name="login_username" id="login_username" onfocus="if (this.value=='username') this.value = '';" onblur="if (this.value=='') this.value = 'username';" value="username" placeholder="username">
-							<input type="password" name="login_password" id="login_password" onfocus="if (this.value=='password') this.value = '';" onblur="if (this.value=='') this.value = 'password';" value="password" placeholder="password">
-							<a href="#" class="tbutton small"><span>Sign In</span></a>
-							<a href="#" class="tbutton color2 small"><span>Register</span></a>
-						</form><!-- login form -->
-					</div><!-- content -->
-				</div><!-- widget -->
-				<div id="popupLoginClose">x</div>
-			</div><!-- popup login -->
-			<div id="LoginBackgroundPopup"></div>
+		<div id="popupLogin">
+			<div class="def-block widget">
+				<h4> Sign In </h4><span class="liner"></span>
+				<div class="widget-content row-fluid">
+					<form id="popup_login_form">
+						<input type="text" name="login_username" id="login_username" onfocus="if (this.value=='username') this.value = '';" onblur="if (this.value=='') this.value = 'username';" value="username" placeholder="username">
+						<input type="password" name="login_password" id="login_password" onfocus="if (this.value=='password') this.value = '';" onblur="if (this.value=='') this.value = 'password';" value="password" placeholder="password">
+						<a href="#" class="tbutton small"><span>Sign In</span></a>
+						<a href="#" class="tbutton color2 small"><span>Register</span></a>
+					</form><!-- login form -->
+				</div><!-- content -->
+			</div><!-- widget -->
+			<div id="popupLoginClose">x</div>
+		</div><!-- popup login -->
+		<div id="LoginBackgroundPopup"></div>
 		<!-- popup login -->
 
 		<header id="header" class="glue">
@@ -80,7 +87,7 @@
 			<div class="headdown">
 				<div class="row clearfix">
 					<div class="logo bottomtip" title="Best and Most Popular Musics">
-						<a href="#"><img src="themeMayarossa/images/logo.png" alt="Best and Most Popular Musics"></a>
+						<a href="index.html"><img src="themeMayarossa/images/logo_light.png" alt="Best and Most Popular Musics"></a>
 					</div><!-- end logo -->
 
 					<nav>
@@ -88,7 +95,7 @@
 							<li class="current selectedLava"><a href="index.html">Home<span class="sub">start here</span></a>
 								<ul>
 									<li><a href="index_revolution.html">Home 2 - Revolution</a></li>
-									<li><a href="index_modern.html">Home 3 - Modern</a></li>
+									<li class="current"><a href="index_modern.html">Home 3 - Modern</a></li>
 									<li><a href="index_footer.html">Home with Footer</a></li>
 									<li><a href="index_loading.html">Home with Loading</a></li>
 								</ul>
@@ -190,162 +197,217 @@
 		</header><!-- end header -->
 
 		<!-- Start Revolution Slider -->
-			<div class="sliderr">
-				<div class="tp-banner-container">
-					<div class="tp-banner" >
-						<ul>
-							<!-- SLIDE  -->
-							<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
-								<!-- MAIN IMAGE -->
-								<img src="themeMayarossa/images/slides/slider1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-								<!-- LAYERS -->
-								<div class="tp-caption fade"
-									data-x="566"
-									data-y="306"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="800"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap1.png" alt=""></div>
+		<div class="sliderr boxedcontainer">
+			<div class="tp-banner-container">
+				<div class="tp-banner" >
+					<ul>
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
+							<!-- MAIN IMAGE -->
+							<img src="themeMayarossa/images/slides/slider2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+							<div class="tp-caption fade"
+								 data-x="566"
+								 data-y="306"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="800"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap1.png" alt=""></div>
 
-								<div class="tp-caption lfb"
-									data-x="566"
-									data-y="305"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="1200"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap2.png" alt=""></div>
+							<div class="tp-caption lfb"
+								 data-x="566"
+								 data-y="305"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="1200"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap2.png" alt=""></div>
 
-								<div class="tp-caption lft"
-									data-x="741"
-									data-y="305"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="1200"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap3.png" alt=""></div>
+							<div class="tp-caption lft"
+								 data-x="741"
+								 data-y="305"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="1200"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap3.png" alt=""></div>
 
-								<div class="tp-caption lfb"
-									data-x="711"
-									data-y="374"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="2000"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap4.png" alt=""></div>
+							<div class="tp-caption lfb"
+								 data-x="711"
+								 data-y="374"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="2000"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap4.png" alt=""></div>
 
-								<div class="tp-caption lft"
-									data-x="714"
-									data-y="374"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="2000"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap5.png" alt=""></div>
-							</li>
+							<div class="tp-caption lft"
+								 data-x="714"
+								 data-y="374"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="2000"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap5.png" alt=""></div>
+						</li>
 
-							<!-- SLIDE  -->
-							<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
-								<!-- MAIN IMAGE -->
-								<img src="themeMayarossa/images/slides/slider9.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-								<!-- LAYERS -->
-								<div class="tp-caption modern_big_bluebg randomrotate"
-									data-x="603"
-									data-y="384"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="1200"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11">Responsive Design</div>
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
+							<!-- MAIN IMAGE -->
+							<img src="themeMayarossa/images/slides/slider7.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+							<div class="tp-caption modern_big_bluebg randomrotate"
+								 data-x="203"
+								 data-y="384"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="1200"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">Responsive Design</div>
 
-								<div class="tp-caption modern_big_redbg randomrotate"
-									data-x="701"
-									data-y="328"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="1700"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11">Retina Ready</div>
-							</li>
+							<div class="tp-caption modern_big_redbg randomrotate"
+								 data-x="301"
+								 data-y="328"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="1700"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">Retina Ready</div>
+						</li>
 
-							<!-- SLIDE  -->
-							<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
-								<!-- MAIN IMAGE -->
-								<img src="themeMayarossa/images/slides/slider3.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-								<!-- LAYERS -->
-								<div class="tp-caption modern_big_redbg randomrotate"
-									data-x="560"
-									data-y="253"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="1000"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11">Revolution Slider</div>
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
+							<!-- MAIN IMAGE -->
+							<img src="themeMayarossa/images/slides/slider8.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+							<div class="tp-caption modern_big_redbg randomrotate"
+								 data-x="560"
+								 data-y="253"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="1000"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">Revolution Slider</div>
 
-								<div class="tp-caption modern_m_bluebg randomrotate"
-									data-x="560"
-									data-y="310"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="1500"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11">Awesome MusicPlayer</div>
+							<div class="tp-caption modern_m_bluebg randomrotate"
+								 data-x="560"
+								 data-y="310"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="1500"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">Awesome MusicPlayer</div>
 
-								<div class="tp-caption modern_m_bluebg randomrotate"
-									data-x="560"
-									data-y="355"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="2000"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11">Wonderful Gallery</div>
+							<div class="tp-caption modern_m_bluebg randomrotate"
+								 data-x="560"
+								 data-y="355"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="2000"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">Wonderful Gallery</div>
 
-								<div class="tp-caption modern_m_bluebg randomrotate"
-									data-x="560"
-									data-y="400"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="2500"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11">Seo Optimized</div>
+							<div class="tp-caption modern_m_bluebg randomrotate"
+								 data-x="560"
+								 data-y="400"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="2500"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">Seo Optimized</div>
 
-								<div class="tp-caption modern_m_bluebg randomrotate"
-									data-x="560"
-									data-y="445"
-									data-hoffset="0"
-									data-speed="700"
-									data-start="3000"
-									data-easing="Back.easeInOut"
-									data-endspeed="300"
-									style="z-index: 11">and Much More ...</div>
-							</li>
+							<div class="tp-caption modern_m_bluebg randomrotate"
+								 data-x="560"
+								 data-y="445"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="3000"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">and Much More ...</div>
+						</li>
 
-						</ul><!-- End Slides -->
-						<div class="tp-bannertimer"></div>
-					</div>
+					</ul><!-- End Slides -->
+					<div class="tp-bannertimer"></div>
 				</div>
 			</div>
+		</div>
 		<!-- End Revolution Slider -->
 
-		<div class="page-content">
+		<div class="page-content left-sidebar">
 			<div class="row clearfix mbf">
 				<div class="music-player-list"></div>
 			</div><!-- row music player -->
 
+			<div class="row clearfix mbf">
+				<div class="def-block animtt" data-gen="fadeUp" style="opacity:0;">
+					<h4> New Videos </h4><span class="liner"></span>
+
+					<div class="video-grid clearfix">
+						<div class="videos-carousel">
+							<div class="anyClass">
+								<ul>
+									<li>
+										<a href="video_single_wide.html">
+											<img src="themeMayarossa/images/assets/videos1.jpg" alt="#">
+											<span><strong>Avril Lopez</strong>Daredevil (video version)</span>
+										</a>
+									</li>
+									<li>
+										<a href="video_single_wide.html">
+											<img src="themeMayarossa/images/assets/videos2.jpg" alt="#">
+											<span><strong>Bob Stoo</strong>No Name No Number</span>
+										</a>
+									</li>
+									<li>
+										<a href="video_single_wide.html">
+											<img src="themeMayarossa/images/assets/videos3.jpg" alt="#">
+											<span><strong>Alfered Graceful</strong>Tonight (Remix)</span>
+										</a>
+									</li>
+									<li>
+										<a href="video_single_wide.html">
+											<img src="themeMayarossa/images/assets/videos4.jpg" alt="#">
+											<span><strong>Dj Alex</strong>Divine</span>
+										</a>
+									</li>
+									<li>
+										<a href="video_single_wide.html">
+											<img src="themeMayarossa/images/assets/videos5.jpg" alt="#">
+											<span><strong>Justin Gomez</strong>Love You as Love Me</span>
+										</a>
+									</li>
+									<li>
+										<a href="video_single_wide.html">
+											<img src="themeMayarossa/images/assets/videos6.jpg" alt="#">
+											<span><strong>Dj Back</strong>I Like It (Radio Edit)</span>
+										</a>
+									</li>
+								</ul>
+							</div><!-- anyclass -->
+
+							<div class="preve"><i class="icon-angle-left"></i></div><!-- carousel left -->
+							<div class="nexte"><i class="icon-angle-right"></i></div><!-- carousel right -->
+
+						</div><!-- carousel -->
+					</div><!-- videos -->
+				</div><!-- block -->
+			</div><!-- row video jcarousel -->
+
 			<div class="row row-fluid clearfix mbf">
-				<div class="span8">
+				<div class="span8 posts">
 					<div class="def-block">
 						<h4> Latest News </h4><span class="liner"></span>
 
@@ -374,7 +436,7 @@
 						</div><!-- news -->
 
 						<div class="news row-fluid animtt" data-gen="fadeUp" style="opacity:0;">
-							<div class="span5"><img class="four-radius" src="images/assets/news3.jpg" alt="#"></div>
+							<div class="span5"><img class="four-radius" src="themeMayarossa/images/assets/news3.jpg" alt="#"></div>
 							<div class="span7">
 								<h3 class="news-title"> <a href="news_single.html">VMAs With A Round Of 'Applause'</a> </h3>
 								<p>Nine Inch Nails aren't on the bill, and they won't play the fest anytime soon. Soundwave promoter AJ Maddah started a Twitter war-of-words with a few choice comments about NIN's Trent Reznor.</p>
@@ -389,7 +451,7 @@
 					</div><!-- def block -->
 				</div><!-- span8 news -->
 
-				<div class="span4">
+				<div class="span4 sidebar">
 					<div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
 						<h4> Events </h4><span class="liner"></span>
 						<div class="widget-content row-fluid">
@@ -425,36 +487,9 @@
 					</div><!-- def block widget events -->
 
 					<div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
-						<h4> Featured Videos </h4><span class="liner"></span>
-						<div class="widget-content row-fluid">
-							<div class="videos clearfix flexslider">
-								<ul class="slides">
-									<li class="featured-video">
-										<a href="video_single_wide.html">
-											<img src="themeMayarossa/images/assets/video1.jpg" alt="#">
-											<i class="icon-play-sign"></i>
-											<h3>I Know You Want Me</h3>
-											<span>Fitbull</span>
-										</a>
-									</li><!-- slide -->
-									<li class="featured-video">
-										<a href="video_single_wide.html">
-											<img src="themeMayarossa/images/assets/video2.jpg" alt="#">
-											<i class="icon-play-sign"></i>
-											<h3>I Like It</h3>
-											<span>Enrique</span>
-										</a>
-									</li><!-- slide -->
-									<li class="featured-video">
-										<a href="video_single_wide.html">
-											<img src="themeMayarossa/images/assets/video3.jpg" alt="#">
-											<i class="icon-play-sign"></i>
-											<h3>Tommorow</h3>
-											<span>Dj Michele</span>
-										</a>
-									</li><!-- slide -->
-								</ul>
-							</div>
+						<h4> Latest Tweets </h4><span class="liner"></span>
+						<div class="widget-content">
+							<div class="tweet"></div>
 						</div><!-- widget content -->
 					</div><!-- def block widget videos -->
 
@@ -532,44 +567,40 @@
 		</footer><!-- end footer -->
 
 	</div><!-- end layout -->
-<!--<!-- Scripts -->-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.min.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/theme20.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/bootstrap/js/bootstrap.min.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.prettyPhoto.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.flexslider-min.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.jplayer.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/ttw-music-player-min.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/music/myplaylist.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/countdown.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.nicescroll.min.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/twitter/jquery.tweet.js"></script>-->
-<!--	<script type="text/javascript" src="themeMayarossa/js/custom.js"></script>-->
-
-
+	<!-- Scripts -->
+<!--	<script type="text/javascript" src="js/jquery.min.js"></script>-->
+<!--	<script type="text/javascript" src="js/theme20.js"></script>-->
+<!--	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>-->
+<!--	<script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>-->
+<!--	<script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>-->
+<!--	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>-->
+<!--	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>-->
+<!--	<script type="text/javascript" src="js/jquery.jplayer.js"></script>-->
+<!--	<script type="text/javascript" src="js/ttw-music-player-min.js"></script>-->
+<!--	<script type="text/javascript" src="music/myplaylist.js"></script>-->
+<!--	<script type="text/javascript" src="js/countdown.js"></script>-->
+<!--	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>-->
+<!--	<script type="text/javascript" src="js/twitter/jquery.tweet.js"></script>-->
+<!--	<script type="text/javascript" src="js/custom.js"></script>-->
 	<script type="text/javascript">
-    /* <![CDATA[ */
-    jQuery(document).ready(function() {
-        jQuery('.tp-banner').revolution({
+		/* <![CDATA[ */
+		jQuery(document).ready(function() {
+			jQuery('.tp-banner').revolution({
 				delay:9000,
 				startwidth:1060,
 				startheight:610,
 				hideThumbs:10,
-				navigationType:"off",
-				fullWidth:"on",
-				forceFullWidth:"on"
+				navigationType:"off"
 			});
 			jQuery("#event1").countdown({
-				date: "20 May 2016 23:59:59",
-				format: "on"
-			},
-			function() {
-                // callback function
-            });
+					date: "31 December 2013 23:59:59",
+					format: "on"
+				},
+				function() {
+					// callback function
+				});
 		});
-	/* ]]> */
+		/* ]]> */
 	</script>
 <?php $this->endBody() ?>
 </body>
