@@ -38,7 +38,7 @@
 	</head>
 	<body id="fluidGridSystem" class="modern">
 	<?php $this->beginBody() ?>
-	<div id="layout" class="boxed">
+	<div id="layout" class="boxed-margin">
 		<!-- popup login -->
 		<div id="popupLogin">
 			<div class="def-block widget">
