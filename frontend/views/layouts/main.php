@@ -256,6 +256,63 @@
 								 data-endspeed="300"
 								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap5.png" alt=""></div>
 						</li>
+						
+						
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
+							<!-- MAIN IMAGE -->
+							<img src="themeMayarossa/images/slides/slider3.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+							<div class="tp-caption modern_big_redbg randomrotate"
+								 data-x="0"
+								 data-y="245"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="1000"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">Здесь Вы познакомитесь:</div>
+
+							<div class="tp-caption modern_m_bluebg randomrotate"
+								 data-x="15"
+								 data-y="300"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="1500"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">с моим творчеством</div>
+
+							<div class="tp-caption modern_m_bluebg randomrotate"
+								 data-x="0"
+								 data-y="365"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="2000"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">посмотрите фотогалерею</div>
+
+							<div class="tp-caption modern_m_bluebg randomrotate"
+								 data-x="15"
+								 data-y="430"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="2500"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">сможете связаться со мной</div>
+
+							<div class="tp-caption modern_m_bluebg randomrotate"
+								 data-x="0"
+								 data-y="495"
+								 data-hoffset="0"
+								 data-speed="700"
+								 data-start="3000"
+								 data-easing="Back.easeInOut"
+								 data-endspeed="300"
+								 style="z-index: 11">и еще много чего ...</div>
+						</li>
 
 						<!-- SLIDE  -->
 						<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
@@ -283,61 +340,6 @@
 								 style="z-index: 11">Retina Ready</div>
 						</li>
 
-						<!-- SLIDE  -->
-						<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
-							<!-- MAIN IMAGE -->
-							<img src="themeMayarossa/images/slides/slider8.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-							<!-- LAYERS -->
-							<div class="tp-caption modern_big_redbg randomrotate"
-								 data-x="560"
-								 data-y="253"
-								 data-hoffset="0"
-								 data-speed="700"
-								 data-start="1000"
-								 data-easing="Back.easeInOut"
-								 data-endspeed="300"
-								 style="z-index: 11">Revolution Slider</div>
-
-							<div class="tp-caption modern_m_bluebg randomrotate"
-								 data-x="560"
-								 data-y="310"
-								 data-hoffset="0"
-								 data-speed="700"
-								 data-start="1500"
-								 data-easing="Back.easeInOut"
-								 data-endspeed="300"
-								 style="z-index: 11">Awesome MusicPlayer</div>
-
-							<div class="tp-caption modern_m_bluebg randomrotate"
-								 data-x="560"
-								 data-y="355"
-								 data-hoffset="0"
-								 data-speed="700"
-								 data-start="2000"
-								 data-easing="Back.easeInOut"
-								 data-endspeed="300"
-								 style="z-index: 11">Wonderful Gallery</div>
-
-							<div class="tp-caption modern_m_bluebg randomrotate"
-								 data-x="560"
-								 data-y="400"
-								 data-hoffset="0"
-								 data-speed="700"
-								 data-start="2500"
-								 data-easing="Back.easeInOut"
-								 data-endspeed="300"
-								 style="z-index: 11">Seo Optimized</div>
-
-							<div class="tp-caption modern_m_bluebg randomrotate"
-								 data-x="560"
-								 data-y="445"
-								 data-hoffset="0"
-								 data-speed="700"
-								 data-start="3000"
-								 data-easing="Back.easeInOut"
-								 data-endspeed="300"
-								 style="z-index: 11">and Much More ...</div>
-						</li>
 
 					</ul><!-- End Slides -->
 					<div class="tp-bannertimer"></div>
