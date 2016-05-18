@@ -38,7 +38,7 @@
 	</head>
 	<body id="fluidGridSystem" class="modern">
 	<?php $this->beginBody() ?>
-	<div id="layout" class="full">
+	<div id="layout" class="boxed">
 		<!-- popup login -->
 		<div id="popupLogin">
 			<div class="def-block widget">
@@ -202,55 +202,55 @@
 				<div class="tp-banner" >
 					<ul>
 						<!-- SLIDE  -->
-						<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
+						<li data-transition="random" data-slotamount="7" data-masterspeed="7000" >
 							<!-- MAIN IMAGE -->
 							<img src="themeMayarossa/images/slides/slider2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 							<!-- LAYERS -->
 							<div class="tp-caption fade"
-								 data-x="566"
-								 data-y="306"
+								 data-x="10"
+								 data-y="206"
 								 data-hoffset="0"
-								 data-speed="700"
+								 data-speed="1000"
 								 data-start="800"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
 								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap1.png" alt=""></div>
 
 							<div class="tp-caption lfb"
-								 data-x="566"
-								 data-y="305"
+								 data-x="10"
+								 data-y="205"
 								 data-hoffset="0"
-								 data-speed="700"
+								 data-speed="1000"
 								 data-start="1200"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
 								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap2.png" alt=""></div>
 
 							<div class="tp-caption lft"
-								 data-x="741"
-								 data-y="305"
+								 data-x="185"
+								 data-y="205"
 								 data-hoffset="0"
-								 data-speed="700"
+								 data-speed="1000"
 								 data-start="1200"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
 								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap3.png" alt=""></div>
 
 							<div class="tp-caption lfb"
-								 data-x="711"
-								 data-y="374"
+								 data-x="185"
+								 data-y="290"
 								 data-hoffset="0"
-								 data-speed="700"
+								 data-speed="1000"
 								 data-start="2000"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
 								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap4.png" alt=""></div>
 
 							<div class="tp-caption lft"
-								 data-x="714"
-								 data-y="374"
+								 data-x="188"
+								 data-y="290"
 								 data-hoffset="0"
-								 data-speed="700"
+								 data-speed="1000"
 								 data-start="2000"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
@@ -452,7 +452,7 @@
 
 				<div class="span4 sidebar">
 					<div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
-						<h4> События </h4><span class="liner"></span>
+						<h4> Не пропустите </h4><span class="liner"></span>
 						<div class="widget-content row-fluid">
 							<div class="span12 mb">
 								<ul id="event1" class="event-timer">
