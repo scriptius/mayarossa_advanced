@@ -77,7 +77,7 @@
 
 					<div class="search">
 						<form action="search.html" id="search" method="get">
-							<input id="inputhead" name="search" type="text" onfocus="if (this.value=='Start Searching...') this.value = '';" onblur="if (this.value=='') this.value = 'Start Searching...';" value="Start Searching..." placeholder="Start Searching ...">
+							<input id="inputhead" name="search" type="text" onfocus="if (this.value=='Искать здесь...') this.value = '';" onblur="if (this.value=='') this.value = 'Искать здесь...';" value="Искать здесь..." placeholder="Искать здесь...">
 							<button type="submit"><i class="icon-search"></i></button>
 						</form><!-- end form -->
 					</div><!-- search -->
@@ -569,20 +569,20 @@
 
 	</div><!-- end layout -->
 	<!-- Scripts -->
-<!--	<script type="text/javascript" src="js/jquery.min.js"></script>-->
-<!--	<script type="text/javascript" src="js/theme20.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.min.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/theme20.js"></script>-->
 <!--	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>-->
-<!--	<script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>-->
-<!--	<script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>-->
-<!--	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>-->
-<!--	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>-->
-<!--	<script type="text/javascript" src="js/jquery.jplayer.js"></script>-->
-<!--	<script type="text/javascript" src="js/ttw-music-player-min.js"></script>-->
-<!--	<script type="text/javascript" src="music/myplaylist.js"></script>-->
-<!--	<script type="text/javascript" src="js/countdown.js"></script>-->
-<!--	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>-->
-<!--	<script type="text/javascript" src="js/twitter/jquery.tweet.js"></script>-->
-<!--	<script type="text/javascript" src="js/custom.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/rs-plugin/themeMayarossa/js/jquery.themepunch.plugins.min.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/rs-plugin/themeMayarossa/js/jquery.themepunch.revolution.min.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.prettyPhoto.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.flexslider-min.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.jplayer.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/ttw-music-player-min.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/music/myplaylist.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/countdown.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/jquery.nicescroll.min.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/twitter/jquery.tweet.js"></script>-->
+<!--	<script type="text/javascript" src="themeMayarossa/js/custom.js"></script>-->
 	<script type="text/javascript">
 		/* <![CDATA[ */
 		jQuery(document).ready(function() {

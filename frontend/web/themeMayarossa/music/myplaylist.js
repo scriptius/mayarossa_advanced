@@ -3,94 +3,47 @@
 */
 
 var myPlaylist = [
-	
+
 	{
-		mp3:'music/1.mp3',
-		title:'Track 1',
-		artist:'Alexandra',
+		mp3:'themeMayarossa/music/MayaRossa_the_show_must_go_on.mp3',
+		title:'Шоу должно продолжаться',
+		artist:'Maya Rossa',
 		rating:5,
 		buy:'#',
-		price:'17',
+		//price:'17',
 		duration:'0:38',
-		cover:'music/1.jpg'	
+		cover:'themeMayarossa/music/MayaRossa_the_show_must_go_on.jpg'
 	},
+
 	{
-		mp3:'music/2.mp3',
-		title:'Track 2',
-		artist:'BlueFoxMusic',
-		rating:4,
-		buy:'#',
-		price:'17',
-		duration:'2:51',
-		cover:'music/2.jpg'	
-	},
-	{
-		mp3:'music/1.mp3',
-		title:'Track 3',
-		artist:'Alexandra',
+		mp3:'themeMayarossa/music/MayaRossa_ya_vernus.mp3',
+		title:'Я вернусь (Голос - дети)',
+		artist:'Maya Rossa',
 		rating:5,
 		buy:'#',
-		price:'17',
+		//price:'17',
 		duration:'0:38',
-		cover:'music/1.jpg'	
+		cover:'themeMayarossa/music/MayaRossa_ya_vernus.jpg'
 	},
+
 	{
-		mp3:'music/2.mp3',
-		title:'Track 4',
-		artist:'BlueFoxMusic',
-		rating:4,
-		buy:'#',
-		price:'17',
-		duration:'2:51',
-		cover:'music/2.jpg'	
-	},
-	{
-		mp3:'music/1.mp3',
-		title:'Track 5',
-		artist:'Alexandra',
+		mp3:'themeMayarossa/music/MayaRossa_prodavets_kukol.mp3',
+		title:'Продавец кукол',
+		artist:'Maya Rossa',
 		rating:5,
 		buy:'#',
-		price:'17',
+		//price:'17',
 		duration:'0:38',
-		cover:'music/1.jpg'	
+		cover:'themeMayarossa/music/MayaRossa_prodavets_kukol.jpg'
 	},
-	{
-		mp3:'music/2.mp3',
-		title:'Track 6',
-		artist:'BlueFoxMusic',
-		rating:4,
-		buy:'#',
-		price:'17',
-		duration:'2:51',
-		cover:'music/2.jpg'	
-	},
-	{
-		mp3:'music/1.mp3',
-		title:'Track 7',
-		artist:'Alexandra',
-		rating:5,
-		buy:'#',
-		price:'17',
-		duration:'0:38',
-		cover:'music/1.jpg'	
-	},
-	{
-		mp3:'music/2.mp3',
-		title:'Track 8',
-		artist:'BlueFoxMusic',
-		rating:4,
-		buy:'#',
-		price:'17',
-		duration:'2:51',
-		cover:'music/2.jpg'	
-	},
+
 ];
 jQuery(document).ready(function ($) {
 	$('.music-player-list').ttwMusicPlayer(myPlaylist, {
 		currencySymbol:'$',
-		buyText:'BUY',
+		buyText:'Скачать',
 		tracksToShow:3,
-		autoplay:true,
+		autoplay:false,
 		ratingCallback:function(index, playlistItem, rating){
 			//some logic to process the rating, perhaps through an ajax call
 		},
