@@ -207,7 +207,7 @@
 							<img src="themeMayarossa/images/slides/slider2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 							<!-- LAYERS -->
 							<div class="tp-caption fade"
-								 data-x="10"
+								 data-x="5"
 								 data-y="206"
 								 data-hoffset="0"
 								 data-speed="1000"
@@ -217,7 +217,7 @@
 								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap1.png" alt=""></div>
 
 							<div class="tp-caption lfb"
-								 data-x="10"
+								 data-x="15"
 								 data-y="205"
 								 data-hoffset="0"
 								 data-speed="1000"
@@ -227,7 +227,7 @@
 								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap2.png" alt=""></div>
 
 							<div class="tp-caption lft"
-								 data-x="185"
+								 data-x="220"
 								 data-y="205"
 								 data-hoffset="0"
 								 data-speed="1000"
@@ -237,8 +237,8 @@
 								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap3.png" alt=""></div>
 
 							<div class="tp-caption lfb"
-								 data-x="185"
-								 data-y="290"
+								 data-x="40"
+								 data-y="280"
 								 data-hoffset="0"
 								 data-speed="1000"
 								 data-start="2000"
@@ -247,8 +247,8 @@
 								 style="z-index: 11"><img src="themeMayarossa/images/slides/slide1-cap4.png" alt=""></div>
 
 							<div class="tp-caption lft"
-								 data-x="188"
-								 data-y="290"
+								 data-x="41"
+								 data-y="280"
 								 data-hoffset="0"
 								 data-speed="1000"
 								 data-start="2000"
