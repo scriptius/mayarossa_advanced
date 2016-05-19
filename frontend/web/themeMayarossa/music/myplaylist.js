@@ -36,13 +36,23 @@ var myPlaylist = [
 		duration:'0:38',
 		cover:'themeMayarossa/music/MayaRossa_prodavets_kukol.jpg'
 	},
+	{
+		mp3:'themeMayarossa/music/MayaRossa_Something\'s_Got_A_Hold_On_Me.mp3',
+		title:'Something\'s_Got_A_Hold_On_Me',
+		artist:'Maya Rossa',
+		rating:5,
+		buy:'#',
+		//price:'17',
+		duration:'0:38',
+		cover:'themeMayarossa/music/MayaRossa_Something\'s_Got_A_Hold_On_Me.jpg'
+	},
 
 ];
 jQuery(document).ready(function ($) {
 	$('.music-player-list').ttwMusicPlayer(myPlaylist, {
 		currencySymbol:'$',
 		buyText:'Скачать',
-		tracksToShow:3,
+		tracksToShow:4,
 		autoplay:false,
 		ratingCallback:function(index, playlistItem, rating){
 			//some logic to process the rating, perhaps through an ajax call

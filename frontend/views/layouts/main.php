@@ -86,7 +86,7 @@
 
 			<div class="headdown">
 				<div class="row clearfix">
-					<div class="logo bottomtip" title="Best and Most Popular Musics">
+					<div class="logo bottomtip" title="Официальный сайт певицы - MAYA ROSSA">
 						<a href="index.html"><img src="themeMayarossa/images/logo_light.png" alt="Best and Most Popular Musics"></a>
 					</div><!-- end logo -->
 
@@ -410,7 +410,7 @@
 			<div class="row row-fluid clearfix mbf">
 				<div class="span8 posts">
 					<div class="def-block">
-						<h4> Последние новости </h4><span class="liner"></span>
+						<h4> Последние события </h4><span class="liner"></span>
 
 						<div class="news row-fluid animtt" data-gen="fadeUp" style="opacity:0;">
 							<div class="span5"><img class="four-radius" src="themeMayarossa/images/assets/news1.jpg" alt="#"></div>
