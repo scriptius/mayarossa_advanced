@@ -271,7 +271,7 @@
 								 data-start="1000"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
-								 style="z-index: 11">Здесь Вы познакомитесь:</div>
+								 style="z-index: 11">Здесь Вы познакомитесь</div>
 
 							<div class="tp-caption modern_m_bluebg randomrotate"
 								 data-x="15"
@@ -281,7 +281,7 @@
 								 data-start="1500"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
-								 style="z-index: 11">с моим творчеством</div>
+								 style="z-index: 11">с моим творчеством,</div>
 
 							<div class="tp-caption modern_m_bluebg randomrotate"
 								 data-x="0"
@@ -291,7 +291,7 @@
 								 data-start="2000"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
-								 style="z-index: 11">посмотрите фотогалерею</div>
+								 style="z-index: 11">посмотрите фотогалерею,</div>
 
 							<div class="tp-caption modern_m_bluebg randomrotate"
 								 data-x="15"
@@ -317,27 +317,27 @@
 						<!-- SLIDE  -->
 						<li data-transition="random" data-slotamount="7" data-masterspeed="5000" >
 							<!-- MAIN IMAGE -->
-							<img src="themeMayarossa/images/slides/slider7.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+							<img src="themeMayarossa/images/slides/slider4.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 							<!-- LAYERS -->
 							<div class="tp-caption modern_big_bluebg randomrotate"
-								 data-x="203"
+								 data-x="703"
 								 data-y="384"
 								 data-hoffset="0"
 								 data-speed="700"
 								 data-start="1200"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
-								 style="z-index: 11">Responsive Design</div>
+								 style="z-index: 11">друзья!</div>
 
 							<div class="tp-caption modern_big_redbg randomrotate"
-								 data-x="301"
+								 data-x="703"
 								 data-y="328"
 								 data-hoffset="0"
 								 data-speed="700"
 								 data-start="1700"
 								 data-easing="Back.easeInOut"
 								 data-endspeed="300"
-								 style="z-index: 11">Retina Ready</div>
+								 style="z-index: 11">До скорых встреч</div>
 						</li>
 
 
@@ -488,14 +488,14 @@
 					</div><!-- def block widget events -->
 
 					<div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
-						<h4> Я в твитере </h4><span class="liner"></span>
+						<h4> Это я в твиттере </h4><span class="liner"></span>
 						<div class="widget-content">
 							<div class="tweet"></div>
 						</div><!-- widget content -->
 					</div><!-- def block widget videos -->
 
 					<div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
-						<h4> Популярные треки </h4><span class="liner"></span>
+						<h4> А это - популярные треки </h4><span class="liner"></span>
 						<div class="widget-content row-fluid">
 							<div class="scroll-mp3" style="height: 220px;">
 								<div class="content">
@@ -550,7 +550,7 @@
 		<footer id="footer">
 			<div class="footer-last">
 				<div class="row clearfix">
-					<span class="copyright">© 2013 by <a href="http://theme20.com/">Theme20</a>. All Rights Reserved. Powered by <a href="http://themeforest.net/user/behzadg?ref=behzadg">Themeforest</a>.</span>
+					<span class="copyright">© 2016 by <a href="http://mayarossa.ru/">mayarossa.ru</a>. All Rights Reserved. Powered by <a href="http://themeforest.net/user/behzadg?ref=behzadg">Themeforest</a>.</span>
 					<div id="toTop"><i class="icon-angle-up"></i></div><!-- Back to top -->
 					<div class="foot-menu">
 						<ul>
