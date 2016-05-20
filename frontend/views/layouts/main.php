@@ -362,38 +362,38 @@
 								<ul>
 									<li>
 										<a href="video_single_wide.html">
-											<img src="themeMayarossa/images/assets/videos1.jpg" alt="#">
-											<span><strong>Avril Lopez</strong>Daredevil (video version)</span>
+											<iframe width="230" height="160" src="https://www.youtube.com/embed/Jym_qIvphAo" frameborder="0" allowfullscreen></iframe>
+											<span><strong>Maya Rossa</strong>Who's loving you (cover) by Maya Rossa</span>
 										</a>
 									</li>
 									<li>
 										<a href="video_single_wide.html">
-											<img src="themeMayarossa/images/assets/videos2.jpg" alt="#">
-											<span><strong>Bob Stoo</strong>No Name No Number</span>
+											<iframe width="230" height="160" src="https://www.youtube.com/embed/39eRlf5N4fU" frameborder="0" allowfullscreen></iframe>
+											<span><strong>Maya Rossa</strong>Моя Россия</span>
 										</a>
 									</li>
 									<li>
 										<a href="video_single_wide.html">
-											<img src="themeMayarossa/images/assets/videos3.jpg" alt="#">
-											<span><strong>Alfered Graceful</strong>Tonight (Remix)</span>
+											<iframe width="230" height="160" src="https://www.youtube.com/embed/0nfgs1HZ8iE" frameborder="0" allowfullscreen></iframe>
+											<span><strong>Maya Rossa</strong>Колокола</span>
 										</a>
 									</li>
 									<li>
 										<a href="video_single_wide.html">
-											<img src="themeMayarossa/images/assets/videos4.jpg" alt="#">
-											<span><strong>Dj Alex</strong>Divine</span>
+											<iframe width="230" height="160" src="https://www.youtube.com/embed/61HJlnyI7jY" frameborder="0" allowfullscreen></iframe>
+											<span><strong>Maya Rossa</strong>Hello (cover)</span>
 										</a>
 									</li>
 									<li>
 										<a href="video_single_wide.html">
-											<img src="themeMayarossa/images/assets/videos5.jpg" alt="#">
-											<span><strong>Justin Gomez</strong>Love You as Love Me</span>
+											<iframe width="230" height="160" src="https://www.youtube.com/embed/Fo0SelOjJpE" frameborder="0" allowfullscreen></iframe>
+											<span><strong>Maya Rossa</strong>Гран-при "Кукушка"</span>
 										</a>
 									</li>
 									<li>
 										<a href="video_single_wide.html">
-											<img src="themeMayarossa/images/assets/videos6.jpg" alt="#">
-											<span><strong>Dj Back</strong>I Like It (Radio Edit)</span>
+											<iframe width="230" height="160" src="https://www.youtube.com/embed/FiXJUziXFVw" frameborder="0" allowfullscreen></iframe>
+											<span><strong>Maya Rossa</strong>Я вернусь</span>
 										</a>
 									</li>
 								</ul>
@@ -420,7 +420,7 @@
 								<div class="meta">
 									<span> <i class="icon-time mi"></i>August 26, 2013 5:09 AM </span> | <span> <a href="#"><i class="icon-comments-alt"></i> 14</a> </span>
 								</div><!-- meta -->
-								<a href="news_single.html" class="sign-btn tbutton small"><span>Read More</span></a>
+								<a href="news_single.html" class="sign-btn tbutton small"><span>Подробнее</span></a>
 							</div><!-- span7 -->
 						</div><!-- news -->
 
@@ -432,7 +432,7 @@
 								<div class="meta">
 									<span> <i class="icon-time mi"></i>August 24, 2013 8:10 PM </span> | <span> <a href="#"><i class="icon-comments-alt"></i> 5</a> </span>
 								</div><!-- meta -->
-								<a href="news_single.html" class="sign-btn tbutton small"><span>Read More</span></a>
+								<a href="news_single.html" class="sign-btn tbutton small"><span>Подробнее</span></a>
 							</div><!-- span7 -->
 						</div><!-- news -->
 
@@ -444,7 +444,7 @@
 								<div class="meta">
 									<span> <i class="icon-time mi"></i>August 20, 2013 2:00 AM </span> | <span> <a href="#"><i class="icon-comments-alt"></i> 27</a> </span>
 								</div><!-- meta -->
-								<a href="news_single.html" class="tbutton small"><span>Read More</span></a>
+								<a href="news_single.html" class="tbutton small"><span>Подробнее</span></a>
 							</div><!-- span7 -->
 						</div><!-- news -->
 
@@ -460,28 +460,28 @@
 								<ul id="event1" class="event-timer">
 									<li>
 										<span class="days">00</span>
-										<p class="timeRefDays">days</p>
+										<p class="timeRefDays">дней</p>
 									</li>
 									<li>
 										<span class="hours">00</span>
-										<p class="timeRefHours">hours</p>
+										<p class="timeRefHours">часов</p>
 									</li>
 									<li>
 										<span class="minutes">00</span>
-										<p class="timeRefMinutes">min</p>
+										<p class="timeRefMinutes">минут</p>
 									</li>
 									<li>
 										<span class="seconds">00</span>
-										<p class="timeRefSeconds">sec</p>
+										<p class="timeRefSeconds">секунд</p>
 									</li>
 								</ul> <!-- end timer -->
 							</div><!-- timer -->
 
 							<div class="grid_8">
-								<p class="event-titlett">Bono Serenades Warren</p>
+								<p class="event-titlett">Здесь текст события</p>
 							</div>
 							<div class="grid_4">
-								<a href="#" class="tbutton buy-ticket small"><span>Buy Ticket</span></a>
+								<a href="#" class="tbutton buy-ticket small"><span>Подробнее</span></a>
 							</div>
 
 						</div><!-- widget content -->
