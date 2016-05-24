@@ -584,6 +584,9 @@
 <!--	<script type="text/javascript" src="themeMayarossa/js/jquery.nicescroll.min.js"></script>-->
 <!--	<script type="text/javascript" src="themeMayarossa/js/twitter/jquery.tweet.js"></script>-->
 <!--	<script type="text/javascript" src="themeMayarossa/js/custom.js"></script>-->
+
+	<?php $this->endBody() ?>
+	
 	<script type="text/javascript">
 		/* <![CDATA[ */
 		jQuery(document).ready(function() {
@@ -604,7 +607,7 @@
 		});
 		/* ]]> */
 	</script>
-<?php $this->endBody() ?>
+
 </body>
 </html>
 <?php $this->endPage() ?>
