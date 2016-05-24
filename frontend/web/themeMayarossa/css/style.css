@@ -584,7 +584,7 @@ textarea {
 	font-size: 14px;
 }
 .sf-menu li:hover > a, .sf-menu li > a:hover, .sf-menu li.current > a {
-	color: #ff0078
+	color: #ff0078 !important;
 }
 .sf-menu li li:hover > a, .sf-menu li li > a:hover, .sf-menu li li.current > a {
 	color: #000;
