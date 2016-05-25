@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = Yii::$app->name;
+$this->title = 'Maya Rossa (Мая Егорова) - официальный сайт';
 ?>
 <div class="site-index">
 
