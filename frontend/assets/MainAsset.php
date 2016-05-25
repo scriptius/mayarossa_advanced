@@ -47,7 +47,7 @@ class MainAsset extends  AssetBundle{
     ];
 
     public $jsOptions = [
-      'position' =>  View::POS_END,
+      'position' =>  View::POS_HEAD,
         'type' => 'text/javascript'
     ];
 
