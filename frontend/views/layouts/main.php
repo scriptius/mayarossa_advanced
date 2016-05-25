@@ -10,21 +10,16 @@
 	<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 	<!--<![endif]-->
 	<head>
-		<title>Мая Егорова (Maya Rossa)</title>
+		<title>Maya Rossa (Мая Егорова) - официальный сайт</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		<!-- Seo Meta -->
 		<meta name="description" content="Remix - Music & Band Site Template HTML5 and CSS3">
 		<meta name="keywords" content="remix, music, light, dark, themeforest, multi purpose, band, css3, html5">
+		<?php \yii\helpers\Html::csrfMetaTags(); ?>
 
 		<!-- Styles -->
-<!--		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen" />-->
-<!--		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" media="screen" />-->
-<!--		<link rel="stylesheet" type="text/css" href="style.css" id="dark" media="screen" />-->
-<!--		<link rel="stylesheet" type="text/css" href="js/rs-plugin/css/settings.css" media="screen" />-->
-<!--		<link rel="stylesheet" type="text/css" href="styles/icons/icons.css" media="screen" />-->
-<!--		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>-->
-<!--		<link rel="stylesheet" type="text/css" href="styles/light.css" media="screen" />-->
+
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="themeMayarossa/images/favicon.ico">
 		<link rel="apple-touch-icon" href="themeMayarossa/images/apple-touch-icon.png">
