@@ -41,6 +41,7 @@
 
     <target name="rightsAndFolders">
         <exec command="sudo chmod 777 /home/domains/mayarossa/current/frontend/web/assets" dir="${target.dir}" checkreturn="true" returnProperty="exec.return" outputProperty="exec.output"/>
+        <exec command="sudo chmod 777 /home/domains/mayarossa/current/backend/web/assets" dir="${target.dir}" checkreturn="true" returnProperty="exec.return" outputProperty="exec.output"/>
     </target>
 
     <target name="migration">
