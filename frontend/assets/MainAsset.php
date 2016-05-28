@@ -11,15 +11,16 @@ class MainAsset extends  AssetBundle{
     public $baseUrl = '@web';
 
     public $css = [
-        'themeMayarossa/css/style.css',
-        'themeMayarossa/styles/light.css',
 
-//        'themeMayarossa/bootstrap/css/bootstrap.css',
-//        'themeMayarossa/bootstrap/css/bootstrap.min.css',
-        'themeMayarossa/bootstrap/css/bootstrap-responsive.min.css',
+
+        'themeMayarossa/bootstrap/css/bootstrap.css',
+        'themeMayarossa/bootstrap/css/bootstrap.min.css',
+        'themeMayarossa/bootstrap/css/bootstrap-responsive.css',
         'themeMayarossa/styles/icons/icons.css',
         'http://fonts.googleapis.com/css?family=Oswald',
         'themeMayarossa/js/rs-plugin/css/settings.css',
+        'themeMayarossa/css/style.css',
+        'themeMayarossa/styles/light.css',
     ];
 
     public $js = [

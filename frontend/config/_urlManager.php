@@ -6,8 +6,12 @@ return [
     'rules'=> [
         // Pages
         ['pattern'=>'page/<slug>', 'route'=>'page/view'],
-
+        ['pattern'=>'about', 'route'=>'page/about'],
+        ['pattern'=>'honors', 'route'=>'page/honors'],
+        ['pattern'=>'smi', 'route'=>'page/smi'],
         // Articles
+
+
         ['pattern'=>'article/index', 'route'=>'article/index'],
         ['pattern'=>'article/attachment-download', 'route'=>'article/attachment-download'],
         ['pattern'=>'article/<slug>', 'route'=>'article/view'],

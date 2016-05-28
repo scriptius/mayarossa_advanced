@@ -50,12 +50,12 @@
 			<div class="headdown">
 				<div class="row clearfix">
 					<div class="logo bottomtip" title="Официальный сайт певицы - MAYA ROSSA">
-						<a href="index.html"><img src="themeMayarossa/images/logo_light.png" alt="Best and Most Popular Musics"></a>
+						<a href="/"><img src="themeMayarossa/images/logo_light.png" alt="Best and Most Popular Musics"></a>
 					</div><!-- end logo -->
 
 					<nav>
 						<ul class="sf-menu">
-							<li class="current selectedLava"><a href="index.html">Главная<span class="sub">Начало здесь</span></a>
+							<li class="current selectedLava"><a href="/">Главная<span class="sub">страница</span></a>
 								<ul>
 <!--									<li><a href="index_revolution.html">Home 2 - Revolution</a></li>-->
 <!--									<li class="current"><a href="index_modern.html">Home 3 - Modern</a></li>-->
@@ -63,7 +63,7 @@
 <!--									<li><a href="index_loading.html">Home with Loading</a></li>-->
 								</ul>
 							</li>
-							<li><a href="index.html">Обо мне<span class="sub">и не только</span></a>
+							<li><a href="/about">Обо мне<span class="sub">и не только</span></a>
 								<ul>
 									<li><a href="#">Биография</a>
 <!--										<ul>-->
