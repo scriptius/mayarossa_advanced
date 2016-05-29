@@ -1,6 +1,7 @@
 <?php
 /* @var $this yii\web\View */
 $this->title = 'Maya Rossa / Мая Егорова / официальный сайт';
+\frontend\assets\GoogleMapsAsset::register($this);
 ?>
 
 <!-- Start Revolution Slider -->
@@ -261,9 +262,10 @@ $this->title = 'Maya Rossa / Мая Егорова / официальный са
 
         <div class="span4 sidebar">
             <div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
-                <h4> Не пропустите </h4><span class="liner"></span>
+                <h4> Не пропустите</h4> <span class="liner"></span>
                 <div class="widget-content row-fluid">
                     <div class="span12 mb">
+                        <font size="2"><strong>30 Июня 2016 23:59</strong></font>
                         <ul id="event1" class="event-timer">
                             <li>
                                 <span class="days">00</span>
@@ -284,6 +286,11 @@ $this->title = 'Maya Rossa / Мая Егорова / официальный са
                         </ul> <!-- end timer -->
                     </div><!-- timer -->
 
+
+                    <!-- GoogleMaps-->
+                    <div id="map" class="mb"></div>
+                    <!-- end GoogleMaps-->
+
                     <div class="grid_8">
                         <p class="event-titlett">Здесь текст события</p>
                     </div>
@@ -293,6 +300,11 @@ $this->title = 'Maya Rossa / Мая Егорова / официальный са
 
                 </div><!-- widget content -->
             </div><!-- def block widget events -->
+
+            <div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
+                <h4>Сотрудничество </h4><span class="liner"></span>
+                По вопросам сотрудничества звонить по номеру 89167989081 (Алексей)
+            </div><!-- def block widget videos -->
 
             <div class="def-block widget animtt" data-gen="fadeUp" style="opacity:0;">
                 <h4> Это я в instagram </h4><span class="liner"></span>
@@ -353,3 +365,37 @@ $this->title = 'Maya Rossa / Мая Егорова / официальный са
     </div><!-- row clearfix -->
 
 </div><!-- end page content -->
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    jQuery(document).ready(function () {
+        jQuery('.tp-banner').revolution({
+            delay: 9000,
+            startwidth: 1060,
+            startheight: 610,
+            hideThumbs: 10,
+            navigationType: "off"
+        });
+        jQuery("#event1").countdown({
+                date: "30 June 2016 23:59:59",
+                format: "on"
+            },
+            function () {
+                // callback function
+            });
+    });
+
+    jQuery(function () {
+        jQuery("#map").gmap3({
+            marker: {
+                address: "Ащеулов пер., 9, Москва"
+            },
+            map: {
+                options: {
+                    zoom: 10
+                }
+            }
+        });
+    });
+    /* ]]> */
+</script>

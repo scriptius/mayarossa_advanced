@@ -65,7 +65,7 @@
 							</li>
 							<li><a href="/about">Обо мне<span class="sub">и не только</span></a>
 								<ul>
-									<li><a href="#">Биография</a>
+									<li><a href="/about">Биография</a>
 <!--										<ul>-->
 <!--											<li><a href="shortcode_accordion.html">Accordion</a></li>-->
 <!--											<li><a href="shortcode_buttons.html">Buttons</a></li>-->
@@ -90,7 +90,7 @@
 <!--											<li><a href="shortcode_message_box.html">Message box</a></li>-->
 <!--										</ul>-->
 									</li>
-									<li><a href="shop.html">Достижения и награды</a>
+									<li><a href="/honors">Достижения и награды</a>
 <!--										<ul>-->
 <!--											<li><a href="shop.html">Shop Page</a></li>-->
 <!--											<li><a href="shop_product.html">Shop Product</a></li>-->
@@ -98,7 +98,7 @@
 <!--											<li><a href="shop_checkout.html">Shop Checkout</a></li>-->
 <!--										</ul>-->
 									</li>
-									<li><a href="under_construction.html">Что пишут СМИ</a></li>
+									<li><a href="smi">Что пишут СМИ</a></li>
 <!--									<li><a href="icons.html"><i class="icon-microphone mi"></i>660 Retina Icons</a></li>-->
 <!--									<li><a href="#"><i class="icon-caret-right mi"></i>3rd Level</a>-->
 <!--										<ul>-->

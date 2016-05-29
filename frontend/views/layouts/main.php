@@ -47,32 +47,7 @@
 
     </div><!-- end layout -->
 
-    <!-- Scripts -->
-
-
     <?php $this->endBody() ?>
-
-    <script type="text/javascript">
-        /* <![CDATA[ */
-        jQuery(document).ready(function () {
-            jQuery('.tp-banner').revolution({
-                delay: 9000,
-                startwidth: 1060,
-                startheight: 610,
-                hideThumbs: 10,
-                navigationType: "off"
-            });
-            jQuery("#event1").countdown({
-                    date: "31 December 2013 23:59:59",
-                    format: "on"
-                },
-                function () {
-                    // callback function
-                });
-        });
-        /* ]]> */
-    </script>
-
     </body>
     </html>
 <?php $this->endPage() ?>
