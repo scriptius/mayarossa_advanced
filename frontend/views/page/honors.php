@@ -1,8 +1,8 @@
 <?php
-$this->title = 'Достижеия и награды | Maya Rossa';
+$this->title = 'Достижения и награды | Maya Rossa';
 ?>
 <div class="under_header">
-
+    <img src="themeMayarossa/images/assets/underHeader/2.jpg" alt="#">
 </div><!-- under header -->
 
 <div class="page-content back_to_up">
@@ -10,7 +10,7 @@ $this->title = 'Достижеия и награды | Maya Rossa';
         <div class="breadcrumbIn">
             <ul>
                 <li><a href="index.html" class="toptip" original-title="Homepage"> <i class="icon-home"></i> </a></li>
-                <li> Мои достижеия и награды </li>
+                <li> Мои достижения и награды </li>
             </ul>
         </div><!-- breadcrumb -->
     </div><!-- row -->
@@ -18,26 +18,73 @@ $this->title = 'Достижеия и награды | Maya Rossa';
     <div class="row row-fluid clearfix mbf">
         <div class="posts">
             <div class="def-block">
-                <h4> Fullwide Page </h4><span class="liner"></span>
+                <h4> Достижения и награды </h4><span class="liner"></span>
 
-                паыо
-                паыо
-                <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                <img src="images/assets/news1.jpg" class="fll">
-                <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                <div class="blockquote"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.</div>
-
-                <img src="images/assets/news2.jpg" class="flr">
-                <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                <div class="blockquote left"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.</div>
-                <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                <div class="blockquote right"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.</div>
-                <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div><!-- def block -->
         </div><!-- posts -->
+
+
+        <table class="table table-hover">
+            <thead>
+            <tr class="info">
+                <th scope="col">Год</th>
+                <th scope="col">Название конкурса</th>
+                <th scope="col">Выступление</th>
+                <th scope="col">Что достигнуто</th>
+                <th scope="col">Фото</th>
+                <th scope="col">Видео</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="info">
+                <td>??????</td>
+                <td>Форум искусств славянских народов</td>
+                <td>сольное</td>
+                <td>лауреат 1 степени</td>
+                <td><i class="icon-remove"></i></td>
+                <td><i class="icon-remove"></i></td>
+            </tr>
+            <tr class="info">
+                <td>??????</td>
+                <td>Путь к успеху</td>
+                <td>сольное</td>
+                <td>лауреат 1 степени</td>
+                <td><a href="#" class="tbutton small"><span>Посмотреть</span></a> </td>
+                <td><a href="#" class="tbutton small"><span>Посмотреть</span></a> </td>
+            </tr>
+            <tr class="info">
+                <td>??????</td>
+                <td>Дорога звезд</td>
+                <td>сольное</td>
+                <td>лауреат 1 степени</td>
+                <td><a href="#" class="tbutton small"><span>Посмотреть</span></a> </td>
+                <td><a href="#" class="tbutton small"><span>Посмотреть</span></a> </td>
+            </tr><tr class="info">
+                <td>??????</td>
+                <td>адмиралтейская звезда</td>
+                <td>сольное</td>
+                <td>лауреат 1 степени</td>
+                <td><i class="icon-remove"></i></td>
+                <td><a href="#" class="tbutton small"><span>Посмотреть</span></a> </td>
+            </tr><tr class="info">
+                <td>??????</td>
+                <td>Золотая нотау</td>
+                <td>сольное</td>
+                <td>лауреат 1 степени</td>
+                <td><a href="#" class="tbutton small"><span>Посмотреть</span></a> </td>
+                <td><a href="#" class="tbutton small"><span>Посмотреть</span></a> </td>
+            </tr>
+
+            </tbody>
+            <tfoot>
+<!--            <tr>-->
+<!--                <td colspan="6">Footer Note: Lorem ipsum dolor sit amet</td>-->
+<!--            </tr>-->
+            </tfoot>
+        </table>
+
+
+
 
     </div><!-- row clearfix -->
 </div><!-- end page content -->

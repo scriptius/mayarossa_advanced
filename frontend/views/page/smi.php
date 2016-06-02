@@ -2,7 +2,7 @@
 $this->title = 'Достижеия и награды | Maya Rossa';
 ?>
 <div class="under_header">
-
+    <img src="themeMayarossa/images/assets/underHeader/3.jpg" alt="#">
 </div><!-- under header -->
 
 <div class="page-content left-sidebar back_to_up">
@@ -19,7 +19,7 @@ $this->title = 'Достижеия и награды | Maya Rossa';
         <div class="span8 posts">
             <div class="def-block">
                 <div class="post row-fluid clearfix">
-                    <iframe src="http://player.vimeo.com/video/72456426?title=1&amp;byline=1&amp;portrait=1" height="360"></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vnVuqfXohxc" frameborder="0" allowfullscreen></iframe>
                     <h3 class="post-title"> <i class="icon-play"></i><a href="blog-single_half.html">Et harum quidem rerum facilis est et expedita distinctio</a> </h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus...</p>
                     <div class="meta">

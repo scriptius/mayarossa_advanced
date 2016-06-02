@@ -2,9 +2,8 @@
 $this->title = 'Maya Rossa / Биография';
 ?>
 <div class="under_header">
-
+    <img src="themeMayarossa/images/assets/underHeader/1.jpg" alt="#">
 </div><!-- under header -->
-
 <div class="page-content back_to_up">
     <div class="row clearfix mb">
         <div class="breadcrumbIn">
@@ -22,12 +21,12 @@ $this->title = 'Maya Rossa / Биография';
 
                 <!--                <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>-->
 
-                <img width="60" height="60" src="themeMayarossa/music/MayaRossa_Something's_Got_A_Hold_On_Me.jpg" class="fll">
+                <img width="150" height="150" src="themeMayarossa/music/MayaRossa_Something's_Got_A_Hold_On_Me.jpg" class="fll">
                 <p><font color="black"> Я родилась 25 апреля 2002 года в прекрасном, маленьком чувашском городке Цивильск. Родители рассчитывали на появление дочери в мае и даже придумали соответствующее имя, но я появилась на свет несколько раньше. Папа с мамой, уже привыкшие к мысли, что у них родится доченька Мая, решили не менять полюбившееся имя.  В 2009 году пошла в первый класс. Училась в Цивильске, в школе №2.
                         </font></p>
 
                 <div class="blockquote right"> Как все начиналось. <br><br>"Чтобы придти к большему, надо начинать с меньшего."</div>
-                <p align="justify"><font color="black"> Начала петь в 3 года, а в 6 лет уже не представляла своей жизни без музыки. Любовь к пению и музыке достались мне от папы Алексея Егорова, военного в отставке. Он тоже прекрасно поёт и имеет музыкальное образование по классу «Фортепиано, гитара, скрипка». Именно папа первым обратил внимание на мои способности, и когда мне исполнилось 6 лет, отвёл в музыкальную школу. Здесь я научилась играть на фортепиано.
+                <p align="justify"><font color="black"> Начала петь в 3 года, а в 6 лет уже не представляла своей жизни без музыки. Любовь к пению и музыке достались мне от папы Алексея Егорова, военного в отставке. Он прекрасно поёт и имеет музыкальное образование по классу «Фортепиано, гитара, скрипка». Именно папа первым обратил внимание на мои способности, и когда мне исполнилось 6 лет, отвёл в музыкальную школу. Здесь я научилась играть на фортепиано.
                     С раннего детства моя творческая биография неразрывно связана с вокалом. Я многократно участвовала и побеждала во многих Международных и Всероссийских конкурсах и фестивалях. В этом мне очень помогли занятия профессиональной студии, где я занималась вокалом не реже 2 раз в неделю. Более подробно почитать о моих успехах Вы можете в разделе <a href="/honors"><strong>Достижения и награды</strong></a>
                 </font></p>
 
