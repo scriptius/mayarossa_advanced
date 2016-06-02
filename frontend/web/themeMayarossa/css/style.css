@@ -1595,11 +1595,11 @@ ul.showcomments .social {
 	border-left:5px solid #272727;
 }
 .blockquote.left {
-	width:33%;
+	width:25%;
 	float:left;
 }
 div.blockquote.right {
-	width:33%;
+	width:25%;
 	float:right;
 }
 
