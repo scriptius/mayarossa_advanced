@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 
+use frontend\models\RegisterForm;
 use Yii;
 use frontend\models\ContactForm;
 use yii\web\Controller;
@@ -35,6 +36,15 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+
+    public function actionRegister()
+    {
+        $model = new RegisterForm();
+
+        return $this->render('register', ['model' => $model]);
+    }
+
+    /*
     public function actionContact()
     {
         $model = new ContactForm();
@@ -57,4 +67,5 @@ class SiteController extends Controller
             'model' => $model
         ]);
     }
+    */
 }

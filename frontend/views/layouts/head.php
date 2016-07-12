@@ -10,7 +10,7 @@
 						<input type="text" name="login_username" id="login_username" onfocus="if (this.value=='username') this.value = '';" onblur="if (this.value=='') this.value = 'username';" value="username" placeholder="username">
 						<input type="password" name="login_password" id="login_password" onfocus="if (this.value=='password') this.value = '';" onblur="if (this.value=='') this.value = 'password';" value="password" placeholder="password">
 						<a href="#" class="tbutton small"><span>Sign In</span></a>
-						<a href="#" class="tbutton color2 small"><span>Register</span></a>
+						<a href="http://mayarossa/register" class="tbutton color2 small"><span>Register</span></a>
 					</form><!-- login form -->
 				</div><!-- content -->
 			</div><!-- widget -->

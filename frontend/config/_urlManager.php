@@ -4,6 +4,9 @@ return [
     'enablePrettyUrl'=>true,
     'showScriptName'=>false,
     'rules'=> [
+        //site
+        ['pattern'=>'register', 'route'=>'site/register'],
+
         // Pages
         ['pattern'=>'page/<slug>', 'route'=>'page/view'],
         ['pattern'=>'about', 'route'=>'page/about'],
