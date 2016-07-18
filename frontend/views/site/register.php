@@ -2,12 +2,12 @@
 
 </div>
 
-<div class="row register">
+<div class="row" style="align-content: center">
     <div class="col-lg-6 col-lg-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 ">
 
         <?
         $form = \yii\bootstrap\ActiveForm::begin([
-            'enableClientValidation' => false,
+            'enableClientValidation' => true,
             'enableAjaxValidation' => true,
         ]);
         ?>
@@ -33,6 +33,7 @@
         <?
         \yii\bootstrap\ActiveForm::end();
         ?>
+        <br>
     </div>
 
 </div>
